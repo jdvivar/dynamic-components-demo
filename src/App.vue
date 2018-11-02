@@ -1,12 +1,11 @@
 <template>
   <div id="app">
-    <DynamicComponent brand="sd"/>
-    <DynamicComponent brand="zava"/>
+    <Dynamic-Component name="Box" />
   </div>
 </template>
 
 <script>
-import DynamicComponent from './components/DynamicComponent'
+import DynamicComponent from '@/components/Dynamic-Component'
 
 export default {
   name: 'app',
