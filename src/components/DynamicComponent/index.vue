@@ -6,6 +6,11 @@
 
 import { mapGetters } from 'vuex'
 
+// There is probably an overload of logic here
+// reason being I'm trying to find and debug
+// why the component doesn't update after the
+// first successful brand change
+
 export default {
   name: 'dynamic-component',
   props: ['data', 'name'],
