@@ -21,6 +21,7 @@ export default {
   },
   computed: {
     loader() {
+      // eslint-disable-next-line
       console.log('loader executed with brand: ' + this.brand)
       return () => import(`@/components/D${this.name}/${this.brand}`)
     },
