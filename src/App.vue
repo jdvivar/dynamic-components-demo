@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <dynamic-component name="Header" />
-    <dynamic-component name="Box" />
-    <brand-selector />
+    <!-- <dynamic-component name="Header" /> -->
+    <!-- <dynamic-component name="Box" /> -->
+    <dynamic-component-functional />
+    <!-- <brand-selector /> -->
   </div>
 </template>
 
 <script>
 import DynamicComponent from '@/components/DynamicComponent'
+import DynamicComponentFunctional from '@/components/DynamicComponentFunctional'
 import BrandSelector from '@/components/BrandSelector'
 
 export default {
   name: 'app',
   components: {
     DynamicComponent,
+    DynamicComponentFunctional,
     BrandSelector
   }
 }
