@@ -1,3 +1,3 @@
 export default {
-  name: 'd-Box',
+  name: 'd-box'
 }

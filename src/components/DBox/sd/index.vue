@@ -4,12 +4,12 @@
   </div>
 </template>
 
-<script src="../d-Box.js"></script>
+<script src="@/components/DBox"></script>
 
 <style scoped>
  .box {
    display: inline-block;
-   background-color: lightgreen;
+   background-color: lightpink;
    border: 1px solid #ccc;
    padding: 50px;
    margin: 50px;
